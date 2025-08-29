@@ -9,12 +9,12 @@ actions:
     type: REG_DWORD
     scope: defaultUser
     
-  - !registryValue:
-    path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer'
-    value: 'ShowRecent'
-    data: '0'
-    type: REG_DWORD
-    scope: defaultUser
+  # - !registryValue:
+  #   path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer'
+  #   value: 'ShowRecent'
+  #   data: '0'
+  #   type: REG_DWORD
+  #   scope: defaultUser
     
     # Disable recent items and frequent places in File Explorer
   - !registryValue:
@@ -41,10 +41,9 @@ actions:
     scope: defaultUser
     
     # Do not display or track items in jump lists from remote locations
-  - !registryValue:
-    path: 'HKCU\SOFTWARE\Policies\Microsoft\Windows\Explorer'
-    value: 'NoRemoteDestinations'
-    data: '1'
-    type: REG_DWORD
-    scope: defaultUser
-    
+  # - !registryValue:
+  #   path: 'HKCU\SOFTWARE\Policies\Microsoft\Windows\Explorer'
+  #   value: 'NoRemoteDestinations'
+  #   data: '1'
+  #   type: REG_DWORD
+  #   scope: defaultUser

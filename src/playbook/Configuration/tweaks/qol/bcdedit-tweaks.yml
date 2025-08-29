@@ -11,4 +11,4 @@ actions:
 
     # Use legacy boot menu
     # Faster as it doesn't boot into an OS
-  - !run: {exe: 'bcdedit', args: '/set bootmenupolicy legacy'}
+  # - !run: {exe: 'bcdedit', args: '/set bootmenupolicy legacy'}

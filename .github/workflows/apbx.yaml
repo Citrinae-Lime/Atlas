@@ -19,7 +19,7 @@ env:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2025
 
     steps:
       - name: Checkout code
@@ -140,3 +140,4 @@ jobs:
           path: |
             src/release-zip/*
           if-no-files-found: error
+          compression-level: 0

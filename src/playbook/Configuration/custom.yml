@@ -32,7 +32,7 @@ actions:
           if (!$?) { exit 2 }
       }
       Start-Process -FilePath "$windir\AtlasDesktop\6. Advanced Configuration\Process Explorer\Uninstall Process Explorer.cmd" -ArgumentList "/silent"
-      Copy-Item -Path 'Themes\*' -Destination """$windir\Resources\Themes""" -Force -Recurse
+    #  Copy-Item -Path 'Themes\*' -Destination """$windir\Resources\Themes""" -Force -Recurse
     weight: 10
     wait: true
     exeDir: true
@@ -72,7 +72,7 @@ actions:
   - !task: { path: 'atlas\components.yml' }
   - !task: { path: 'atlas\appx.yml' }
   - !task: { path: 'atlas\default.yml' }
-  - !task: { path: 'atlas\revert.yml' }
+  # - !task: { path: 'atlas\revert.yml' }
   - !task: { path: "tweaks.yml" }
 
   # Test hive applying. Not sure if this will work as intended

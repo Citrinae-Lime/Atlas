@@ -151,13 +151,13 @@ actions:
   - !task: {path: 'tweaks\qol\config-windows-ink-workspace.yml'}
   - !task: {path: 'tweaks\qol\disable-mouse-accel.yml'}
   - !task: {path: 'tweaks\qol\disable-settings-tips.yml'}
-  - !task: {path: 'tweaks\qol\disable-spell-checking.yml'}
+  # - !task: {path: 'tweaks\qol\disable-spell-checking.yml'}
   # - !task: {path: 'tweaks\qol\disable-store-auto-updates.yml'}
   - !task: {path: 'tweaks\qol\disable-touch-keyboard-features.yml'}
   - !task: {path: 'tweaks\qol\disable-touch-visual-feedback.yml'}
   - !task: {path: 'tweaks\qol\disable-usb-issues-notifications.yml'}
   - !task: {path: 'tweaks\qol\disable-windows-feedback.yml'}
-  - !task: {path: 'tweaks\qol\disable-windows-spotlight.yml'}
+  # - !task: {path: 'tweaks\qol\disable-windows-spotlight.yml'}
   # - !task: {path: 'tweaks\qol\do-not-reduce-sounds.yml'}
   - !task: {path: 'tweaks\qol\hide-disabled-disconnected-sounds.yml'}
   - !task: {path: 'tweaks\qol\show-all-tasks-control-panel.yml'}
@@ -204,7 +204,7 @@ actions:
   #- !task: {path: 'tweaks\qol\explorer\disable-folders-this-pc.yml'}
   - !task: {path: 'tweaks\qol\explorer\disable-network-navigation-pane.yml'}
   - !task: {path: 'tweaks\qol\explorer\full-context-on-more-than-15-items.yml'}
-  - !task: {path: 'tweaks\qol\explorer\hide-frequently-used-items.yml'}
+  # - !task: {path: 'tweaks\qol\explorer\hide-frequently-used-items.yml'}
   # - !task: {path: 'tweaks\qol\explorer\import-power-plan.yml'}
   - !task: {path: 'tweaks\qol\explorer\extend-cache.yml'}
   - !task: {path: 'tweaks\qol\explorer\minimize-mouse-hover-time.yml'}
@@ -359,7 +359,7 @@ actions:
   - !task: {path: 'tweaks\misc\rebuild-perf-counters.yml'}
   - !task: {path: 'tweaks\misc\make-measuresleep-admin.yml'}
   - !task: {path: 'tweaks\misc\create-shortcuts.yml'}
-  - !task: {path: 'tweaks\misc\add-newUser-script.yml'}
+  # - !task: {path: 'tweaks\misc\add-newUser-script.yml'}
   - !task: {path: 'tweaks\misc\add-music-videos-to-home.yml'}
   - !task: {path: 'tweaks\scripts\script-power.yml'} # Done last on purpose
   - !task: {path: 'tweaks\misc\enable-notifications.yml'}

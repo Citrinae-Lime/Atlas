@@ -17,11 +17,11 @@ actions:
     type: REG_DWORD
     
     
-  - !registryValue:
-    path: 'HKU\AME_UserHive_Default\SOFTWARE\Microsoft\Windows\CurrentVersion\SearchSettings'
-    value: 'IsDeviceSearchHistoryEnabled'
-    data: '0'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKU\AME_UserHive_Default\SOFTWARE\Microsoft\Windows\CurrentVersion\SearchSettings'
+  #   value: 'IsDeviceSearchHistoryEnabled'
+  #   data: '0'
+  #   type: REG_DWORD
     
     
   - !registryValue:
@@ -31,11 +31,11 @@ actions:
     type: REG_DWORD
     
     
-  - !registryValue:
-    path: 'HKU\AME_UserHive_Default\SOFTWARE\Microsoft\Windows\CurrentVersion\SearchSettings'
-    value: 'SafeSearchMode'
-    data: '0'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKU\AME_UserHive_Default\SOFTWARE\Microsoft\Windows\CurrentVersion\SearchSettings'
+  #   value: 'SafeSearchMode'
+  #   data: '0'
+  #   type: REG_DWORD
     
     
 

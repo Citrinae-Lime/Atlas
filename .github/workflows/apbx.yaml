@@ -11,7 +11,7 @@ on:
       branch:
         description: 'Branch or ref to run workflow on'
         required: true
-        default: 'main'
+        default: 'TB16p'
         type: string
 
 env:
@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.branch || github.ref }}
-          token: ${{ secrets.RUNNER_SECRET }}
+          # token: ${{ secrets.RUNNER_SECRET }}
 
       - name: Validate YAML files
         run: 'yamllint -d "{extends: relaxed, rules: {empty-lines: disable, line-length: disable, new-line-at-end-of-file: disable, trailing-spaces: disable, new-lines: {type: platform}}}" .'
@@ -136,10 +136,11 @@ jobs:
         working-directory: src\playbook
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v7.0.0
+        uses: actions/upload-artifact@v7
         if: ${{ steps.create-pb.outcome != 'skipped' }}
         with:
           name: Atlas Playbook
           path: |
-            src/release-zip/*
+            src/release-zip/*.apbx
           if-no-files-found: error
+          archive: false

@@ -14,14 +14,14 @@ actions:
     onUpgrade: true
     wait: true
     runas: currentUserElevated
-  - !powerShell:
-    command: |
-      Start-Process -FilePath """$windir\AtlasDesktop\6. Advanced Configuration\Process Explorer\Uninstall Process Explorer.cmd""" -ArgumentList "/silent" -WindowStyle Hidden
-      taskkill /IM taskmgr.exe
-    weight: 2
-    wait: true
-    exeDir: true
-    onUpgrade: true
+  # - !powerShell:
+  #   command: |
+  #     Start-Process -FilePath """$windir\AtlasDesktop\6. Advanced Configuration\Process Explorer\Uninstall Process Explorer.cmd""" -ArgumentList "/silent" -WindowStyle Hidden
+  #     taskkill /IM taskmgr.exe
+  #   weight: 2
+  #   wait: true
+  #   exeDir: true
+  #   onUpgrade: true
   - !powerShell:
     command: |
       $windir = [Environment]::GetFolderPath('Windows')
@@ -44,18 +44,18 @@ actions:
           Copy-Item -Path $_ -Destination $windir -Force -Recurse
           if (!$?) { exit 2 }
       }
-      Copy-Item -Path 'Themes\*' -Destination """$windir\Resources\Themes""" -Force -Recurse
+  #     Copy-Item -Path 'Themes\*' -Destination """$windir\Resources\Themes""" -Force -Recurse
     weight: 10
     wait: true
     exeDir: true
     handleExitCodes: { "!0": halt }
 
   # Prevent annoying notifications during deployment
-  - !cmd:
-    command: "DISABLENOTIFS.cmd"
-    exeDir: true
-    wait: true
-    runas: currentUserElevated
+  # - !cmd:
+  #   command: "DISABLENOTIFS.cmd"
+  #   exeDir: true
+  #   wait: true
+  #   runas: currentUserElevated
   - !taskKill: { name: "explorer" }
   - !taskKill: { name: "ShellExperienceHost" }
   - !run: { exe: "explorer.exe", runas: "currentUser", wait: false }
@@ -91,7 +91,7 @@ actions:
   - !task: { path: "tweaks.yml" }
 
   # Branding for upgrades
-  - !task: { path: 'tweaks\misc\config-oem-information.yml', onUpgrade: true }
+  # - !task: { path: 'tweaks\misc\config-oem-information.yml', onUpgrade: true }
 
   # Set hives to HKU default user
   - !writeStatus: { status: "Applying hives..." }
@@ -119,7 +119,12 @@ actions:
   # This allows Atlas folder scripts (local) to run while requiring signatures for downloaded scripts
   - !writeStatus: { status: "Securing PowerShell execution policy" }
   - !registryValue:
-    path: 'HKLM\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell'
+    path: 'HKCU\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell'
     value: "ExecutionPolicy"
     data: "RemoteSigned"
+    type: REG_SZ
+  - !registryValue:
+    path: 'HKLM\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell'
+    value: "ExecutionPolicy"
+    data: "Restricted"
     type: REG_SZ

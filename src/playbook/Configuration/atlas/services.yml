@@ -22,12 +22,12 @@ actions:
   ## SCRIPTS                                                                                  ##
   ##############################################################################################
 
-  - !writeStatus: {status: 'Disabling File Sharing'}
-  - !powerShell:
-    command: '.\AtlasModules\Scripts\ScriptWrappers\DisableFileSharing.ps1 -Silent'
-    exeDir: true
-    wait: true
-    runas: currentUserElevated
+  # - !writeStatus: {status: 'Disabling File Sharing'}
+  # - !powerShell:
+  #   command: '.\AtlasModules\Scripts\ScriptWrappers\DisableFileSharing.ps1 -Silent'
+  #   exeDir: true
+  #   wait: true
+  #   runas: currentUserElevated
 
   - !writeStatus: {status: 'Disabling Location'}
   - !powerShell:

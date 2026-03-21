@@ -87,7 +87,7 @@ actions:
   - !task: { path: 'atlas\components.yml' }
   - !task: { path: 'atlas\appx.yml' }
   - !task: { path: 'atlas\default.yml' }
-  - !task: { path: 'atlas\revert.yml' }
+  # - !task: { path: 'atlas\revert.yml' }
   - !task: { path: "tweaks.yml" }
 
   # Branding for upgrades

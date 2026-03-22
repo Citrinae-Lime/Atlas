@@ -48,12 +48,12 @@ actions:
   # -----------------------------------------------------
   - !writeStatus: {status: 'Running performance tweaks'}
   - !task: {path: 'tweaks\performance\config-mmcss.yml'}
-  - !task: {path: 'tweaks\performance\disable-auto-folder-discovery.yml'}
+  # - !task: {path: 'tweaks\performance\disable-auto-folder-discovery.yml'}
   # - !task: {path: 'tweaks\performance\disable-game-bar.yml'}
   - !task: {path: 'tweaks\performance\config-automatic-maintenance.yml'}
-  - !task: {path: 'tweaks\performance\disable-background-apps.yml'}
+  # - !task: {path: 'tweaks\performance\disable-background-apps.yml'}
   - !task: {path: 'tweaks\performance\disable-fth.yml'}
-  - !task: {path: 'tweaks\performance\disable-sleep-study.yml'}
+  # - !task: {path: 'tweaks\performance\disable-sleep-study.yml'}
   - !task: {path: 'tweaks\performance\respect-power-modes-search.yml'}
 
 
@@ -94,12 +94,12 @@ actions:
   - !task: {path: 'tweaks\privacy\disable-click-to-do.yml'}
   - !task: {path: 'tweaks\privacy\disable-device-monitoring.yml'}
   - !task: {path: 'tweaks\privacy\disable-rsop-logging.yml'}
-  - !task: {path: 'tweaks\privacy\disable-speech-auto-updates.yml'}
+  # - !task: {path: 'tweaks\privacy\disable-speech-auto-updates.yml'}
   - !task: {path: 'tweaks\privacy\disable-tailored-experiences.yml'}
-  - !task: {path: 'tweaks\privacy\disable-user-tracking.yml'}
-  - !task: {path: 'tweaks\privacy\disable-web-lang-list-access.yml'}
+  # - !task: {path: 'tweaks\privacy\disable-user-tracking.yml'}
+  # - !task: {path: 'tweaks\privacy\disable-web-lang-list-access.yml'}
   - !task: {path: 'tweaks\privacy\disable-win-error-reporting.yml'}
-  - !task: {path: 'tweaks\privacy\disallow-ms-accounts.yml'}
+  # - !task: {path: 'tweaks\privacy\disallow-ms-accounts.yml'}
   - !task: {path: 'tweaks\privacy\disallow-user-activity-upload.yml'}
   - !task: {path: 'tweaks\privacy\search-settings.yml'}
 
@@ -154,22 +154,22 @@ actions:
   - !task: {path: 'tweaks\qol\disable-mouse-accel.yml'}
   - !task: {path: 'tweaks\qol\disable-settings-tips.yml'}
   - !task: {path: 'tweaks\qol\disable-spell-checking.yml'}
-  - !task: {path: 'tweaks\qol\disable-store-auto-updates.yml'}
+  # - !task: {path: 'tweaks\qol\disable-store-auto-updates.yml'}
   - !task: {path: 'tweaks\qol\disable-touch-keyboard-features.yml'}
   - !task: {path: 'tweaks\qol\disable-touch-visual-feedback.yml'}
-  - !task: {path: 'tweaks\qol\disable-usb-issues-notifications.yml'}
+  # - !task: {path: 'tweaks\qol\disable-usb-issues-notifications.yml'}
   - !task: {path: 'tweaks\qol\disable-windows-feedback.yml'}
   - !task: {path: 'tweaks\qol\disable-windows-spotlight.yml'}
-  - !task: {path: 'tweaks\qol\do-not-reduce-sounds.yml'}
+  # - !task: {path: 'tweaks\qol\do-not-reduce-sounds.yml'}
   - !task: {path: 'tweaks\qol\hide-disabled-disconnected-sounds.yml'}
   - !task: {path: 'tweaks\qol\show-all-tasks-control-panel.yml'}
   - !task: {path: 'tweaks\qol\visual-effects.yml'}
   - !task: {path: 'tweaks\qol\disable-tips.yml'}
   - !task: {path: 'tweaks\qol\disable-win11-settings-banner.yml'}
   - !task: {path: 'tweaks\qol\disable-screen-capture-hotkey.yml', option: 'remove-snipping-tool'}
-  - !task: {path: 'tweaks\qol\disable-dynamic-lighting.yml'}
-  - !task: {path: 'tweaks\qol\disable-auto-app-archival.yml'}
-  - !task: {path: 'tweaks\qol\add-sharing-settings-shortcut.yml'}
+  # - !task: {path: 'tweaks\qol\disable-dynamic-lighting.yml'}
+  # - !task: {path: 'tweaks\qol\disable-auto-app-archival.yml'}
+  # - !task: {path: 'tweaks\qol\add-sharing-settings-shortcut.yml'}
 
   # -------------------------------------------------------------------------- #
   #  qol\appearance                                                            #

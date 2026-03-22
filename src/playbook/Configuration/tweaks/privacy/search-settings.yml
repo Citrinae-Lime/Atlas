@@ -17,11 +17,11 @@ actions:
     type: REG_DWORD
     
     
-  - !registryValue:
-    path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\SearchSettings'
-    value: 'IsDeviceSearchHistoryEnabled'
-    data: '0'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\SearchSettings'
+  #   value: 'IsDeviceSearchHistoryEnabled'
+  #   data: '0'
+  #   type: REG_DWORD
     
     
   - !registryValue:

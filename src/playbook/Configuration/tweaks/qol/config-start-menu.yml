@@ -18,24 +18,24 @@ actions:
   - !appx: {operation: clearCache, name: 'Microsoft.Windows.StartMenuExperienceHost*'}
 
     # Remove frequent programs list from the Start Menu 
-  - !registryValue:
-    path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
-    value: 'NoStartMenuMFUprogramsList'
-    data: '1'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer'
+  #   value: 'NoStartMenuMFUprogramsList'
+  #   data: '1'
+  #   type: REG_DWORD
     # Hide "Most used" list from Start menu
-  - !registryValue:
-    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\Explorer'
-    value: 'ShowOrHideMostUsedApps'
-    data: '2'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\Explorer'
+  #   value: 'ShowOrHideMostUsedApps'
+  #   data: '2'
+  #   type: REG_DWORD
 
     # Remove "Recently added" list from Start Menu
-  - !registryValue:
-    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\Explorer'
-    value: 'HideRecentlyAddedApps'
-    data: '1'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows\Explorer'
+  #   value: 'HideRecentlyAddedApps'
+  #   data: '1'
+  #   type: REG_DWORD
 
     # Remove Personalized Website Recommendations from the Recommended section in the Start Menu
     # https://www.elevenforum.com/t/add-or-remove-recommended-websites-on-start-menu-in-windows-11.10667/

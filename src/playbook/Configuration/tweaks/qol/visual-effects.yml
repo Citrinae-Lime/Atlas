@@ -23,46 +23,46 @@ actions:
     type: REG_SZ
     
     
-  - !registryValue:
-    path: 'HKCU\Control Panel\Desktop\WindowMetrics'
-    value: 'MinAnimate'
-    data: '0'
-    type: REG_SZ
+  # - !registryValue:
+  #   path: 'HKCU\Control Panel\Desktop\WindowMetrics'
+  #   value: 'MinAnimate'
+  #   data: '0'
+  #   type: REG_SZ
     
     
-  - !registryValue:
-    path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
-    value: 'ListviewAlphaSelect'
-    data: '1'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
+  #   value: 'ListviewAlphaSelect'
+  #   data: '1'
+  #   type: REG_DWORD
     
     
-  - !registryValue:
-    path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
-    value: 'IconsOnly'
-    data: '0'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
+  #   value: 'IconsOnly'
+  #   data: '0'
+  #   type: REG_DWORD
     
     
-  - !registryValue:
-    path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
-    value: 'TaskbarAnimations'
-    data: '0'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
+  #   value: 'TaskbarAnimations'
+  #   data: '0'
+  #   type: REG_DWORD
     
     
-  - !registryValue:
-    path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
-    value: 'ListviewShadow'
-    data: '1'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
+  #   value: 'ListviewShadow'
+  #   data: '1'
+  #   type: REG_DWORD
     
     
-  - !registryValue:
-    path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects'
-    value: 'VisualFXSetting'
-    data: '3'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects'
+  #   value: 'VisualFXSetting'
+  #   data: '3'
+  #   type: REG_DWORD
     
     
   - !registryValue:

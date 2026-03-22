@@ -7,13 +7,13 @@ actions:
     value: 'UILockdown'
     data: '1'
     type: REG_DWORD
-  - !registryValue:
-    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Device performance and health'
-    value: 'UILockdown'
-    data: '1'
-    type: REG_DWORD
-  - !registryValue:
-    path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Account protection'
-    value: 'UILockdown'
-    data: '1'
-    type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Device performance and health'
+  #   value: 'UILockdown'
+  #   data: '1'
+  #   type: REG_DWORD
+  # - !registryValue:
+  #   path: 'HKLM\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Account protection'
+  #   value: 'UILockdown'
+  #   data: '1'
+  #   type: REG_DWORD

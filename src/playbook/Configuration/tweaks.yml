@@ -174,9 +174,9 @@ actions:
   # -------------------------------------------------------------------------- #
   #  qol\appearance                                                            #
   # -------------------------------------------------------------------------- #
-  - !task: {path: 'tweaks\qol\appearance\blue-tooltips.yml'}
-  - !task: {path: 'tweaks\qol\appearance\atlas-theme.yml'}
-  - !task: {path: 'tweaks\qol\appearance\disallow-theme-changes.yml'}
+  # - !task: {path: 'tweaks\qol\appearance\blue-tooltips.yml'}
+  # - !task: {path: 'tweaks\qol\appearance\atlas-theme.yml'}
+  # - !task: {path: 'tweaks\qol\appearance\disallow-theme-changes.yml'}
 
   # -------------------------------------------------------------------------- #
   #  qol\windows-update                                                        #
@@ -184,10 +184,10 @@ actions:
   - !task: {path: 'tweaks\qol\windows-update\disable-nagging.yml'}
   - !task: {path: 'tweaks\qol\windows-update\disable-insider.yml'}
   - !task: {path: 'tweaks\qol\windows-update\disable-msrt-telemetry.yml'}
-  - !task: {path: 'tweaks\qol\windows-update\disable-feature-updates.yml'}
+  # - !task: {path: 'tweaks\qol\windows-update\disable-feature-updates.yml'}
   - !task: {path: 'tweaks\qol\windows-update\disable-auto-updates.yml'}
   - !task: {path: 'tweaks\qol\windows-update\disable-auto-reboot.yml'}
-  - !task: {path: 'tweaks\qol\windows-update\disable-delivery-optimization.yml'}
+  # - !task: {path: 'tweaks\qol\windows-update\disable-delivery-optimization.yml'}
 
   # -------------------------------------------------------------------------- #
   #  qol\ease-of-access                                                        #
@@ -195,22 +195,22 @@ actions:
   - !task: {path: 'tweaks\qol\ease-of-access\disable-always-read-section.yml'}
   - !task: {path: 'tweaks\qol\ease-of-access\disable-annoying-features-shortcuts.yml'}
   - !task: {path: 'tweaks\qol\ease-of-access\disable-making-touch-easier.yml'}
-  - !task: {path: 'tweaks\qol\ease-of-access\disable-warning-sounds.yml'}
+  # - !task: {path: 'tweaks\qol\ease-of-access\disable-warning-sounds.yml'}
 
   # -------------------------------------------------------------------------- #
   #  qol\taskbar                                                               #
   # -------------------------------------------------------------------------- #
-  - !task: {path: 'tweaks\qol\taskbar\cmd-win-x.yml'}
-  - !task: {path: 'tweaks\qol\taskbar\disable-cloud-optimized-content.yml'}
-  - !task: {path: 'tweaks\qol\taskbar\disable-desktop-peek.yml'}
+  # - !task: {path: 'tweaks\qol\taskbar\cmd-win-x.yml'}
+  # - !task: {path: 'tweaks\qol\taskbar\disable-cloud-optimized-content.yml'}
+  # - !task: {path: 'tweaks\qol\taskbar\disable-desktop-peek.yml'}
   - !task: {path: 'tweaks\qol\taskbar\disable-news-and-interests.yml'}
   - !task: {path: 'tweaks\qol\taskbar\disable-tablet-mode.yml'}
   - !task: {path: 'tweaks\qol\taskbar\hide-meet-now.yml'}
   - !task: {path: 'tweaks\qol\taskbar\hide-task-view.yml'}
-  - !task: {path: 'tweaks\qol\taskbar\config-pins.yml'}
+  # - !task: {path: 'tweaks\qol\taskbar\config-pins.yml'}
   - !task: {path: 'tweaks\qol\taskbar\disable-copilot.yml'}
   - !task: {path: 'tweaks\qol\taskbar\disable-windows-chat.yml'}
-  - !task: {path: 'tweaks\qol\taskbar\set-to-left.yml'}
+  # - !task: {path: 'tweaks\qol\taskbar\set-to-left.yml'}
   - !task: {path: 'tweaks\qol\taskbar\end-task.yml'}
 
   # -------------------------------------------------------------------------- #
@@ -220,10 +220,10 @@ actions:
   - !task: {path: 'tweaks\qol\explorer\disable-invalid-shortcuts-search.yml'}
   - !task: {path: 'tweaks\qol\explorer\disable-check-boxes.yml'}
   #- !task: {path: 'tweaks\qol\explorer\disable-folders-this-pc.yml'}
-  - !task: {path: 'tweaks\qol\explorer\disable-network-navigation-pane.yml'}
+  # - !task: {path: 'tweaks\qol\explorer\disable-network-navigation-pane.yml'}
   - !task: {path: 'tweaks\qol\explorer\full-context-on-more-than-15-items.yml'}
-  - !task: {path: 'tweaks\qol\explorer\hide-frequently-used-items.yml'}
-  - !task: {path: 'tweaks\qol\explorer\import-power-plan.yml'}
+  # - !task: {path: 'tweaks\qol\explorer\hide-frequently-used-items.yml'}
+  # - !task: {path: 'tweaks\qol\explorer\import-power-plan.yml'}
   - !task: {path: 'tweaks\qol\explorer\extend-cache.yml'}
   - !task: {path: 'tweaks\qol\explorer\minimize-mouse-hover-time.yml'}
   - !task: {path: 'tweaks\qol\explorer\no-internet-open-with.yml'}
@@ -233,7 +233,7 @@ actions:
   - !task: {path: 'tweaks\qol\explorer\remove-shortcut-text.yml'}
   - !task: {path: 'tweaks\qol\explorer\show-files.yml'}
   - !task: {path: 'tweaks\qol\explorer\classic-search.yml'}
-  - !task: {path: 'tweaks\qol\explorer\dont-show-office-files.yml'}
+  # - !task: {path: 'tweaks\qol\explorer\dont-show-office-files.yml'}
   - !task: {path: 'tweaks\qol\explorer\use-compact-mode.yml'}
   - !task: {path: 'tweaks\qol\explorer\disable-gallery.yml'}
   - !task: {path: 'tweaks\qol\explorer\debloat-send-to.yml'}
@@ -242,10 +242,10 @@ actions:
   # -------------------------------------------------------------------------- #
   #  qol\explorer\add-context-menus                                            #
   # -------------------------------------------------------------------------- #
-  - !task: {path: 'tweaks\qol\explorer\add-context-menus\merge-as-trustedinstaller.yml'}
-  - !task: {path: 'tweaks\qol\explorer\add-context-menus\new-bat.yml'}
+  # - !task: {path: 'tweaks\qol\explorer\add-context-menus\merge-as-trustedinstaller.yml'}
+  # - !task: {path: 'tweaks\qol\explorer\add-context-menus\new-bat.yml'}
   - !task: {path: 'tweaks\qol\explorer\add-context-menus\new-ps1.yml'}
-  - !task: {path: 'tweaks\qol\explorer\add-context-menus\new-reg.yml'}
+  # - !task: {path: 'tweaks\qol\explorer\add-context-menus\new-reg.yml'}
 
   # -------------------------------------------------------------------------- #
   #  qol\explorer\remove-context-menus                                         #
@@ -256,9 +256,9 @@ actions:
   - !task: {path: 'tweaks\qol\explorer\remove-context-menus\new-bitmap.yml'}
   - !task: {path: 'tweaks\qol\explorer\remove-context-menus\new-rtf.yml'}
   - !task: {path: 'tweaks\qol\explorer\remove-context-menus\paint-3D.yml'}
-  - !task: {path: 'tweaks\qol\explorer\remove-context-menus\share.yml'}
+  # - !task: {path: 'tweaks\qol\explorer\remove-context-menus\share.yml'}
   - !task: {path: 'tweaks\qol\explorer\remove-context-menus\troubleshooting-compat.yml'}
-  - !task: {path: 'tweaks\qol\explorer\remove-context-menus\printing.yml'}
+  # - !task: {path: 'tweaks\qol\explorer\remove-context-menus\printing.yml'}
 
   # -------------------------------------------------------------------------- #
   #  qol\security                                                              #
@@ -268,16 +268,16 @@ actions:
   # -------------------------------------------------------------------------- #
   #  qol\shell                                                                 #
   # -------------------------------------------------------------------------- #
-  - !task: {path: 'tweaks\qol\shell\alt-tab-open-windows.yml'}
+  # - !task: {path: 'tweaks\qol\shell\alt-tab-open-windows.yml'}
   - !task: {path: 'tweaks\qol\shell\disable-aero-shake.yml'}
-  - !task: {path: 'tweaks\qol\shell\disable-low-disk-warning.yml'}
-  - !task: {path: 'tweaks\qol\shell\disable-menu-delay.yml'}
-  - !task: {path: 'tweaks\qol\shell\disable-network-location-wizard.yml'}
+  # - !task: {path: 'tweaks\qol\shell\disable-low-disk-warning.yml'}
+  # - !task: {path: 'tweaks\qol\shell\disable-menu-delay.yml'}
+  # - !task: {path: 'tweaks\qol\shell\disable-network-location-wizard.yml'}
   - !task: {path: 'tweaks\qol\shell\set-unpinned-notification-items.yml'}
   - !task: {path: 'tweaks\qol\shell\restore-old-context-menu.yml'}
   - !task: {path: 'tweaks\qol\shell\show-more-pins.yml'}
   - !task: {path: 'tweaks\qol\shell\no-recommendations-start-menu.yml'}
-  - !task: {path: 'tweaks\qol\shell\disable-nearby-sharing.yml'}
+  # - !task: {path: 'tweaks\qol\shell\disable-nearby-sharing.yml'}
   - !task: {path: 'tweaks\qol\shell\config-autorun.yml'}
 
   # -------------------------------------------------------------------------- #
@@ -287,7 +287,7 @@ actions:
   - !task: {path: 'tweaks\qol\startup-shutdown\disable-startup-delay.yml'}
   # - !task: {path: 'tweaks\qol\startup-shutdown\force-end-shutdown-apps.yml'}
     # It confused people
-  # - !task: {path: 'tweaks\qol\startup-shutdown\enable-verbose-messages.yml'}
+  - !task: {path: 'tweaks\qol\startup-shutdown\enable-verbose-messages.yml'}
 
   # -------------------------------------------------------------------------- #
   #  qol\system                                                                #
@@ -337,12 +337,12 @@ actions:
   # -----------------------------------------------------
   - !writeStatus: {status: 'Running scripts'}
   - !task: {path: 'tweaks\scripts\script-file-associations.yml'}
-  - !task: {path: 'tweaks\scripts\script-core-isolation.yml'}
-  - !task: {path: 'tweaks\scripts\script-mitigations.yml'}
-  - !task: {path: 'tweaks\scripts\script-devices.yml'}
-  - !task: {path: 'tweaks\scripts\script-pfp.yml'}
+  # - !task: {path: 'tweaks\scripts\script-core-isolation.yml'}
+  # - !task: {path: 'tweaks\scripts\script-mitigations.yml'}
+  # - !task: {path: 'tweaks\scripts\script-devices.yml'}
+  # - !task: {path: 'tweaks\scripts\script-pfp.yml'}
   - !task: {path: 'tweaks\scripts\script-backup2.yml'}
-  - !task: {path: 'tweaks\scripts\script-clientcbs.yml'}
+  # - !task: {path: 'tweaks\scripts\script-clientcbs.yml'}
 
 
 
@@ -361,7 +361,7 @@ actions:
   - !task: {path: 'tweaks\misc\make-measuresleep-admin.yml'}
   - !task: {path: 'tweaks\misc\create-shortcuts.yml'}
   - !task: {path: 'tweaks\misc\add-newUser-script.yml'}
-  - !task: {path: 'tweaks\misc\add-music-videos-to-home.yml'}
+  # - !task: {path: 'tweaks\misc\add-music-videos-to-home.yml'}
   - !task: {path: 'tweaks\scripts\script-power.yml'} # Done last on purpose
   - !task: {path: 'tweaks\misc\enable-notifications.yml'}
-  - !task: {path: 'tweaks\misc\config-oem-information.yml'}
+  # - !task: {path: 'tweaks\misc\config-oem-information.yml'}
